@@ -44,7 +44,8 @@ delimiterString(String형) 옵션을 이용해서 구분값을 지정 할 수 �
 
 Default(SHORT) : "repetition " + 현재 반복 횟수 + " of " + 총 반복 횟수
 
-![image.png](Junit%20%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%86%B8%201c278f499da5807ebed9e54186c5045e/image.png)
+![image](https://github.com/user-attachments/assets/68330ce1-c116-4830-8ff4-f9078b21cd08)
+
 
 ---
 
