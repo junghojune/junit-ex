@@ -1,0 +1,17 @@
+services:
+  mysql:
+    image: mysql:8.0.33
+    ports:
+      - 13306:3306
+    volumes:
+      - /Users/jeonghojun/IdeaProjects/project/initdb:/docker-entrypoint-initdb.d
+      - /Users/jeonghojun/dev/mysql_data:/var/lib/mysql
+    command:
+      - '--character-set-server=utf8mb4'
+      - '--collation-server=utf8mb4_unicode_ci'
+      - '--default-authentication-plugin=mysql_native_password'
+    environment:
+      MYSQL_DATABASE: testlabs
+      MYSQL_USER: fastcamp
+      MYSQL_PASSWORD: testcode
+      MYSQL_ROOT_PASSWORD: preonboarding

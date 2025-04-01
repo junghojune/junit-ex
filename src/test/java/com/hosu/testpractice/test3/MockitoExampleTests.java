@@ -33,7 +33,7 @@ public class MockitoExampleTests {
         Ticket t = Ticket.builder()
                 .performanceId(UUID.fromString("adc45fd5-dab9-11ee-9743-0242ac130002"))
                 .performanceName("레베카")
-                .reservationName("유진호")
+                .reservationName("chacha")
                 .reservationPhoneNumber("010-1234-1234")
                 .reservationStatus("reserve")
                 .round(1)
